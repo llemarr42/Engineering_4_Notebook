@@ -1,0 +1,9 @@
+print("type in your, text then press Enter:")
+x=input("")
+txt = x.replace(" ", "-")
+for x in txt:
+  print(x)
+
+
+Spicy version:
+for x in input("type in your, text then press Enter:").replace(" ", "-"): print(x)
