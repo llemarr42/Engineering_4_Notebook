@@ -1,0 +1,22 @@
+x=input("Player1, what's the word:")
+print("\n" * 50)
+
+def everything(misses):
+    if misses > 0:
+        print("---┐ ")
+    if misses > 1:
+        print("   O" )
+    if misses == 3:
+        print("   | ")
+    if misses == 4:
+        print("  \| ")
+    if misses > 4:
+        print("  \|/ ")
+    if misses > 6:
+        print("   |")
+    if misses == 7:
+        print("   / " )
+    if misses > 7:
+        print("  / \ ")
+misses=8
+everything(misses)
