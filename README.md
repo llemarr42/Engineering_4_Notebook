@@ -61,9 +61,12 @@ The purpose of this assignment was to create a program, in which if you input tw
 
 ### Evidence 
 
+![spicy_calculator](https://user-images.githubusercontent.com/56924009/135490197-223c69d2-6950-4909-b681-342d041c2ea0.PNG)
+
 
 ### Wiring
 
 N/A
 
 ### Reflection
+While the code for the math itself was pretty easy I had trouble understanding functions and how they work in python. I learned that functions are basically peices of code that are seperated from the rest of the code and can be called to run the code anywhere on your program. This let's us write the code to do some math once and instead of retyping it everytime we want to use it i can just call the function.
