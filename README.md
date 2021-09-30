@@ -1,16 +1,12 @@
 # Engineering_4_Notebook
 My notebook for engineering 4.
 
-I didn't ask you to document hello_world.py or dice_roller.py. I'll start off with an example for dice_roller.py, and then you will reflect on calculator.py.
 
 ## Table of Contents
 * [Basics](#Basics)
 * [Python_Dice_Roller](#PythonDiceRoller)
 * [Python_Calculator](#Python_Calculator)
 ---
-
-## Basics
-You can delete this section from your own personal readme. 
 
 ### Assignment Description
 
@@ -60,13 +56,14 @@ This assignment was relatively simple, but was challenging because I had not cod
 ## Python_Calculator
 
 ### Assignment Description
+The purpose of this assignment was to create a program, in which if you input two numbers it outputs the sum, difference, product, quotient, modulo. The spicy version would have you write code to find both factorials. The main feature in the code hat makes all of this work is a function.
 
-Your turn! You will be writing a section of readme like this for all subsequent assignments.
 
 ### Evidence 
 
 
 ### Wiring
 
+N/A
 
 ### Reflection
