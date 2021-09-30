@@ -1,6 +1,3 @@
-x=input("Player1, what's the word:")
-print("\n" * 50)
-
 def everything(misses):
     if misses > 0:
         print("---┐ ")
@@ -18,5 +15,23 @@ def everything(misses):
         print("   / " )
     if misses > 7:
         print("  / \ ")
-misses=8
-everything(misses)
+misses=0        
+txt=input("Player1, what's the word:")
+length = len(txt)
+word = [char for char in txt]
+print("\n" * 50)
+guessed = 0
+while misses <=7:
+    guess=input("Player2, guess a letter:")
+    if guess in word:
+        guessed.append(guess)
+        print("remember to add the code here:")
+    elif guess in guessed:
+        print("you already guessed:"{guess})
+        
+    else:
+        misses = misses + 1
+        print("misses:\t" + str(misses))
+        guessed.append(guess)
+
+
