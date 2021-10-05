@@ -56,6 +56,7 @@ This assignment was relatively simple, but was challenging because I had not cod
 ## Python_Calculator
 
 ### Assignment Description
+
 The purpose of this assignment was to create a program, in which if you input two numbers it outputs the sum, difference, product, quotient, modulo. The spicy version would have you write code to find both factorials. The main feature in the code hat makes all of this work is a function.
 
 
@@ -69,4 +70,44 @@ The purpose of this assignment was to create a program, in which if you input tw
 N/A
 
 ### Reflection
+
 While the code for the math itself was pretty easy I had trouble understanding functions and how they work in python. I learned that functions are basically peices of code that are seperated from the rest of the code and can be called to run the code anywhere on your program. This let's us write the code to do some math once and instead of retyping it everytime we want to use it i can just call the function.
+
+
+## Quadratic Solver
+
+### Assignment Description
+
+In this assignment I need to make a code that lets someone type in three coeffecients then the code gives them standard form and vertex form for the numbers, as well as, printing all Real roots. If there are no real roots it will say "There are no real roots" and if there is only one real root then it will print that one root
+
+### Evidence
+
+![quadratic](https://user-images.githubusercontent.com/56924009/136056613-23a82fed-30a2-4504-a05a-32d4757a0d87.PNG)
+
+
+### Wiring
+
+N/A
+
+### Reflection
+
+This assignment was relatively difficult. The code used to find the roots was easy as I could just use the quadratic formula, but i still stuggled with functions and in order to print the quadratic and vertex forms I needed to explore the world of f.strings.  f.strings let me put in variable that I can change into the text. This means I can directly put the coeffecients that were entered into the formula. 
+
+
+## Strings and loops
+
+### Assignment Description
+
+This assignment had me let someone enter text then the code would print there text with each character being on a new line. Another requirement is that I needed to find a way to replace all spaces with dashes. 
+
+### Evidence
+
+![strings and loops](https://user-images.githubusercontent.com/56924009/136058716-718568e6-1e3d-40b4-9003-3cce5b119881.PNG)
+
+### Wiring
+
+N/A
+
+### Reflection
+
+This assignment was extremely easy. I used input to have them type in their text then I used the .replace command to replace the spaces with dashes and "for x in txt:" to loop for each character then printed x to print each character on the lines. for the spicy version I realised I could instead of defining a variable I could use it directely and add .replace at the end of the input command in parenthesis. I can plug this direcely into the for loop and add the print at the end of this line after the colon instead of another line. This let's me bring it down to one line of code. 
