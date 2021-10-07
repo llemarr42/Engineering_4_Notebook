@@ -1,4 +1,4 @@
-def everything(misses):
+def everything(misses, guessed):
     if misses > 0:
         print("---┐ ")
     if misses > 1:
@@ -9,33 +9,49 @@ def everything(misses):
         print("  \| ")
     if misses > 4:
         print("  \|/ ")
-    if misses > 6:
+    if misses > 5:
         print("   |")
     if misses == 7:
         print("   / " )
     if misses > 7:
         print("  / \ ")
-misses=0        
+    dashes = ("_") * len(word)
+    PrettyDash=" ".join(dashes)
+    print( PrettyDash+"\n")
+    print("Guessed Words:\t" + str(guessed))
+
+misses=0
+correct=0
 txt=input("Player1, what's the word:")
+while True:
+    print("\n" * 50)
+    if " " in txt:
+        print("please enter one word")
+        txt=input("Player1, what's the word:")
+    else:
+        break
 length = len(txt)
 word = [char for char in txt]
 print("\n" * 50)
-guessed = 0
-dashes = ("_") * len(word)
-PrettyDash=" ".join(dashes)
-print(PrettyDash+"\n")
+guessed = ""
+everything(misses, guessed)
 while misses <=7:
     guess=input("Player2, guess a letter:")
-    if guess in word:
-        guessed.append(guess)
-        print("remember to add the code here:")
-    elif guess in guessed:
+    guessed = list(guessed)
+    if guess in guessed:
         print("you already guessed:" + guess)
-        
+    elif guess in word:
+        guessed.append(guess)
+        correct = correct + 1
+        print("remember to add the code here:")
     else:
         misses = misses + 1
-        print("misses:\t" + str(misses))
         guessed.append(guess)
-
-
-
+        everything(misses, guessed)
+    if correct == length: ##Broken Code
+        print("Congratulations, Player2 wins!!!") ##Broken Code
+        print("The word was:\t" + str(word)) ## Broken Code
+        break
+    
+if misses >7:
+    print("Game Over")
