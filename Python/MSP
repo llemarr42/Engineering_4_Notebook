@@ -1,4 +1,4 @@
-def everything(misses, guessed):
+def everything(misses, guessed, PrettyDash, cguess):
     if misses > 0:
         print("---┐ ")
     if misses > 1:
@@ -15,11 +15,12 @@ def everything(misses, guessed):
         print("   / " )
     if misses > 7:
         print("  / \ ")
-    dashes = ("_") * len(word)
-    PrettyDash=" ".join(dashes)
-    print( PrettyDash+"\n")
     print("Guessed Words:\t" + str(guessed))
-
+    for place in range(len(word)):
+        if word[place] in cguess: 
+            PrettyDash = PrettyDash[:place] + word[place] + PrettyDash[place+1:]
+    PrettyDash = " ".join(PrettyDash)
+    print( PrettyDash+"\n")
 misses=0
 correct=0
 txt=input("Player1, what's the word:")
@@ -31,27 +32,36 @@ while True:
     else:
         break
 length = len(txt)
+uni = len(set(txt))
 word = [char for char in txt]
 print("\n" * 50)
 guessed = ""
-everything(misses, guessed)
+cguess = ""
+guess = ""
+PrettyDash= ("_") * len(word)
+#PrettyDash=" ".join(dashes)
+everything(misses, guessed, PrettyDash, cguess)
 while misses <=7:
     guess=input("Player2, guess a letter:")
     guessed = list(guessed)
     if guess in guessed:
+        print("\n" * 50)
         print("you already guessed:" + guess)
+        everything(misses, guessed, PrettyDash, cguess)
     elif guess in word:
+        print("\n" * 50)
         guessed.append(guess)
         correct = correct + 1
-        print("remember to add the code here:")
+        cguess = cguess + guess
+        everything(misses, guessed, PrettyDash, cguess)
     else:
+        print("\n" * 50)
         misses = misses + 1
         guessed.append(guess)
-        everything(misses, guessed)
-    if correct == length: ##Broken Code
+        everything(misses, guessed, PrettyDash, cguess)
+    if  correct == uni: ##Broken Code
         print("Congratulations, Player2 wins!!!") ##Broken Code
         print("The word was:\t" + str(word)) ## Broken Code
         break
-    
 if misses >7:
     print("Game Over")
