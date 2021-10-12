@@ -120,3 +120,14 @@ This assignment was extremely easy. I used input to have them type in their text
 In this assignment we create a game of hangman. We need to write code that lets one person enter a word then clears the screen. The code needs to print dashes for each letter in the first persons word that replaces each dash with the corrasponding letter when the letter is correctly guessed by the second person. It also needs to slowly print a "Man Shaped Piniata" whenever the player guesses a wrong word.
 
 ### Evidence 
+
+![MSP game over](https://user-images.githubusercontent.com/56924009/136997048-cbd18755-e192-4c27-91c7-5ad38b579570.PNG)
+
+### Wiring
+
+N/A
+
+### Reflection
+
+This assignment was much harder than the ones previous. The code itself was no terribly bad once you found the proper cod
+
