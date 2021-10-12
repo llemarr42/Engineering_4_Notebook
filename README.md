@@ -111,3 +111,12 @@ N/A
 ### Reflection
 
 This assignment was extremely easy. I used input to have them type in their text then I used the .replace command to replace the spaces with dashes and "for x in txt:" to loop for each character then printed x to print each character on the lines. for the spicy version I realised I could instead of defining a variable I could use it directely and add .replace at the end of the input command in parenthesis. I can plug this direcely into the for loop and add the print at the end of this line after the colon instead of another line. This let's me bring it down to one line of code. 
+
+
+## Man Shaped Piniata
+
+### Assignment Discription
+
+In this assignment we create a game of hangman. We need to write code that lets one person enter a word then clears the screen. The code needs to print dashes for each letter in the first persons word that replaces each dash with the corrasponding letter when the letter is correctly guessed by the second person. It also needs to slowly print a "Man Shaped Piniata" whenever the player guesses a wrong word.
+
+### Evidence 
