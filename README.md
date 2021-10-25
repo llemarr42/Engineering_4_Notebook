@@ -163,3 +163,27 @@ Configuration #2
 
 ### Reflection
 Creating this part from a drawing was more difficult than I expected. Combining the different drawing views with the various dimensions took several tries. Even though the part was made with simple extrudes, they were combined in relatively complex ways. Next time, I will spend more time analyzing the drawings before I actually start making the part!
+
+## CAD Intro 2.1-2.4
+
+### Assignment discription
+
+This assignment had me follow a specific guide to learn about better ways to use onshape. The guide shows how to make a skateboard with annoyingly long discriptions of even the simplist of steps.
+
+### Evidence
+
+Above:
+
+![skate_board_above](https://user-images.githubusercontent.com/56924009/138732188-a7bfc111-a888-41be-8d2f-eeb0c7b3db28.PNG)
+
+Below:
+
+![skate_board_below](https://user-images.githubusercontent.com/56924009/138732234-48271190-125d-44cf-bc39-e961e178d7ea.PNG)
+
+### Part Link
+
+[Skate Board]https://cvilleschools.onshape.com/documents/02a3bdb7560bbd6eba62ac0c/w/3826835c15a8a4d79458bd4e/e/116c7ba04daebba8b507582a?renderMode=0&uiState=6176d81ff3dc6f187fbba27c
+
+### Reflection
+
+This assignment was EXTREMELY easy. The only reason this took any time is that I read through all of the intructions to make sure I wasn't missing anything. It was really tedious, but you really can't fail as long as you can read. The only thing I learned is how to use some of the hotkeys that can speed up the work. for example while in a sketch pressing "d" will diminsion.
