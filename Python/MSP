@@ -1,4 +1,4 @@
-```python
+
     
     def everything(misses, guessed, PrettyDash, cguess):     #function for printing hangman
          if misses > 0:
@@ -68,5 +68,4 @@
     if misses >7:    # If player2 got 8 guesses wrong they loose
         print("Game Over")
     
-```
 
