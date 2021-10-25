@@ -1,4 +1,4 @@
-```python
+``` python
 def everything(misses, guessed, PrettyDash, cguess):     #function for printing hangman
     if misses > 0:
         print("---┐ ")
