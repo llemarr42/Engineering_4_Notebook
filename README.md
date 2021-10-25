@@ -130,7 +130,7 @@ N/A
 ### Reflection
 
 This assignment was much harder than the ones previous. The individual peices of code wasn't terribly bad once you found the proper commands for each situation. The hard part was finding those peices of code and the logic behind them. the hardest part for me was getting dashes for each character in the word then when a correct letter was guessed it would replace the corresponding dash with the letter so that it is in the correct position. Then it would keep the letter there even after another letter was guessed. I did this using
-```
+```python
     for place in range(len(word)):
         if word[place] in cguess: 
             PrettyDash = PrettyDash[:place] + word[place] + PrettyDash[place+1:]
@@ -138,4 +138,4 @@ This assignment was much harder than the ones previous. The individual peices of
     print( PrettyDash+"\n")
 
 ```
-
+The for loop repeats this for evey character in the word and the place variable increaces every run because it represents the number of runs. This lets us have a loop for each character and IF the correct guess is the same as the character in that place in the word it will replace the dash with the correct letter. It also uses a .join so that people can see individual dashes and letters instead of a single line or a line with a random letter in there.
