@@ -1,9 +1,9 @@
-print("type in your, text then press Enter:")
-x=input("")
-txt = x.replace(" ", "-")
-for x in txt:
-  print(x)
+print("type in your, text then press Enter:")    
+x=input("")       # input on new line
+txt = x.replace(" ", "-") # replaces spaces with dashes
+for x in txt: # For every Character in txt
+  print(x) # Print that character
 
 
 Spicy version:
-for x in input("type in your, text then press Enter:").replace(" ", "-"): print(x)
+for x in input("type in your, text then press Enter:").replace(" ", "-"): print(x) # For every character in the input that you type that has all the spaces replaced with dashes print the xth character 
