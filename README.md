@@ -186,4 +186,4 @@ Below:
 
 ### Reflection
 
-This assignment was EXTREMELY easy. The only reason this took any time is that I read through all of the intructions to make sure I wasn't missing anything. It was really tedious, but you really can't fail as long as you can read. The only thing I learned is how to use some of the hotkeys that can speed up the work. for example while in a sketch pressing "d" will diminsion.
+I had an easy time with this assignment but i still learned different things about onshape. I learned how to use onshape hotkeys in order to make navigating easier. For example pressing 'd' while in a sketch will let you diminsion without having to search for it in the tool bar. This assignment takes you through all of the essential tools of onshape giving intructions on how to use them and letting you use them.
