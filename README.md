@@ -187,3 +187,12 @@ Below:
 ### Reflection
 
 I had an easy time with this assignment but i still learned different things about onshape. I learned how to use onshape hotkeys in order to make navigating easier. For example pressing 'd' while in a sketch will let you diminsion without having to search for it in the tool bar. This assignment takes you through all of the essential tools of onshape giving intructions on how to use them and letting you use them.
+
+
+## Intro to CAD - 3.1-3.4
+
+### Part 1
+
+### Assignment discription
+
+This part of the assignment walks you through making a 2x4 lego. It uses variables and linear patterens to make the work much more efficient.
