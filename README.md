@@ -182,7 +182,7 @@ Below:
 
 ### Part Link
 
-[Skate Board]https://cvilleschools.onshape.com/documents/02a3bdb7560bbd6eba62ac0c/w/3826835c15a8a4d79458bd4e/e/116c7ba04daebba8b507582a?renderMode=0&uiState=6176d81ff3dc6f187fbba27c
+[Skate Board](https://cvilleschools.onshape.com/documents/02a3bdb7560bbd6eba62ac0c/w/3826835c15a8a4d79458bd4e/e/116c7ba04daebba8b507582a?renderMode=0&uiState=6176d81ff3dc6f187fbba27c)
 
 ### Reflection
 
@@ -195,4 +195,23 @@ I had an easy time with this assignment but i still learned different things abo
 
 ### Assignment discription
 
-This part of the assignment walks you through making a 2x4 lego. It uses variables and linear patterens to make the work much more efficient.
+This part of the assignment walks you through making a 2x4 lego. It uses variables and linear patterens to make the work much more efficient. The lego is shelled and has a interior circle to frition fit them together.
+
+### Evidence
+
+
+![lego_pt#1](https://user-images.githubusercontent.com/56924009/140966328-5f2b6ba5-fa4f-4abf-85b2-7e3bbd5a5208.PNG)
+
+### Part Link
+
+[link to onshape](https://cvilleschools.onshape.com/documents/d37b93323282622ca2243810/w/4092018e193b380a1a85fc93/e/171ec6c646bc5d45b9f77c64?configuration=List_4DD4kvPICY7y3l%3DYellow%3BList_Raq6P3Ugc5A5hj%3DBrick%3BList_e6K3ouphLFZ9dW%3DDefault&renderMode=0&rightPanel=variableTablePanel&uiState=618aa4779b6f281ec18cd63f)
+
+### Reflection
+
+I this part of the assignment I learned more about variables and ways they can be used. I had not previously known they could be used anything but sketches and extrudes, but this section showed me that variables can be used for so much more. Variables were used in linear patterns and for all the diminsions, but the biggest thing that i learned is that you can use math with the variable in each feature. For example there is a variable for the amount of studs in a row and by using math we can make the side length change for the amount of studs in a row.
+
+### Part 2
+
+### Assignment discription 
+
+This part of the assignment teaches you how to use configuration and a lot of different ways to use them. It also shows how to add and use custom tools in onshape. We use these features to create a lego that we can change to a wide veriety of different shapes and sizes with a click of the button instead of changing every feature with an anoying process.
