@@ -227,3 +227,27 @@ This part of the assignment teaches you how to use configuration and a lot of di
 ### Reflection
 
 This is the part of the assignment in which I learned the most. In this part I learned how to use configurations and how to combine them with variables to make changes to lego. Configurations let you change the values of the variables into predetermined numbers that you enter into the configurations table. This lets you change multiple variables at once by changing which configuration you are using at the top left. Configurations also let you supress certain features in certain configurations, which can be helpful to make some things not break as you change their size.
+
+### part 3
+
+### Assignment discription
+
+This part of the assignment walks you through the assembly phase. It has you make a simple duck out of the legos you made in previous parts. The configurations that were previously made start to really shine because we can now import any configuration that we can set up letting us make our assembly with any lego we can think of and set up. We use snap mode to put the peices together then once it is done we find the ducks center of mass.
+
+### Evidence
+
+![DUCK](https://user-images.githubusercontent.com/56924009/141337377-29b2de7e-d1cb-4a32-b561-934f8a94a3d7.PNG)
+
+### Part Link
+
+[link to onshape](https://cvilleschools.onshape.com/documents/d37b93323282622ca2243810/w/4092018e193b380a1a85fc93/e/171ec6c646bc5d45b9f77c64?configuration=List_4DD4kvPICY7y3l%3DYellow%3BList_Raq6P3Ugc5A5hj%3DBrick%3BList_e6K3ouphLFZ9dW%3DDefault&renderMode=0&rightPanel=variableTablePanel&uiState=618aa4779b6f281ec18cd63f)
+
+### Reflection
+
+This part of the assignment taught me a few tricks I had no Idea about the main one being the snap feature. The snap feature lets you instantly "snap" two parts together when you drag them together. This speeds up the work by a lot and makes everything much easier, especially in this sort of assembly where you have a bunch of smaller, simular peices. Another thing that sped things up was the ability to insert any configuration combination diretly into the assembly. This lets you get a 2x4 yellow block the press two button and get a 1x3 red plate in a couple seconds instead of another time consuming prrocess to recreate every single variation.
+
+### part 4
+
+### Assignment discription
+
+This part of the assingment 
