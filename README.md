@@ -250,4 +250,16 @@ This part of the assignment taught me a few tricks I had no Idea about the main 
 
 ### Assignment discription
 
-This part of the assingment 
+This part of the assingment focuses on making a instution manual for your assemblies. The manual is a relatively simple and easy way for someone to completely reconstruct your assembly, given that they have the tools to do so. We put our assemblies into a drawing with multible views of it as well as a list of all the materials with the materials labeled in one of the images.
+
+### Evidence
+
+![drawing](https://user-images.githubusercontent.com/56924009/142025783-1cdc4f87-32c8-49ba-a51a-1cea654d3e1e.PNG)
+
+### Part Link
+
+[link to onshape](https://cvilleschools.onshape.com/documents/d37b93323282622ca2243810/w/4092018e193b380a1a85fc93/e/171ec6c646bc5d45b9f77c64?configuration=List_4DD4kvPICY7y3l%3DYellow%3BList_Raq6P3Ugc5A5hj%3DBrick%3BList_e6K3ouphLFZ9dW%3DDefault&renderMode=0&rightPanel=variableTablePanel&uiState=618aa4779b6f281ec18cd63f)
+
+### Reflection
+
+I have not made anything like this before so i learned multiple things during this part of the assignment. I learned how to create a drawing of my assembly instantly by right clicking the assembly and hit create drawing. This lets you create a new tab for your drawing that you can choose to have a four view drawing or blank drawing for you to add your own stuff to. Another thing that i learned that was really useful was the BOM table or Bill Of Materials. We can set up the BOM table in the assembly tab and edit what we want it to display. After we do that we can add the BOM table to the drawing in a couple clicks. Then we can use the callout tool to label the different peices in the drawing of the assembly with numbers corresponding  to that on the BOM table.
