@@ -21,7 +21,7 @@ def everything(misses, guessed, PrettyDash, cguess):     #function for printing 
      for place in range(len(word)):    # Repeates for every character in the word
          if word[place] in cguess:     # Checks where the correct guess is in word
             PrettyDash = PrettyDash[:place] + word[place] + PrettyDash[place+1:]     # Replaces "-" with correct letter
-     PrettyDash = " ".join(PrettyDash) " Adds spaces between the dashes/letters
+     PrettyDash = " ".join(PrettyDash) # Adds spaces between the dashes/letters
      print( PrettyDash+"\n")
 misses=0
 correct=0
