@@ -50,18 +50,18 @@ while misses <=7:
         print("\n" * 50)
         print("you already guessed:" + guess)
         everything(misses, guessed, PrettyDash, cguess)
-    elif guess in word:     # Checks to see if the guess is correct
+   elif guess in word:     # Checks to see if the guess is correct
         print("\n" * 50)
         guessed.append(guess) # Adds the guessed letter to the list guess
         correct = correct + 1
         cguess = cguess + guess
         everything(misses, guessed, PrettyDash, cguess)
-    else:                    # Checks to see if guess is wrong
+   else:                    # Checks to see if guess is wrong
         print("\n" * 50)
         misses = misses + 1
         guessed.append(guess)
         everything(misses, guessed, PrettyDash, cguess)
-    if  correct == uni:    # If Player2 had as many correct guesses as there are characters in the word they win
+   if  correct == uni:    # If Player2 had as many correct guesses as there are characters in the word they win
         print("Congratulations, Player2 wins!!!")
         print("The word was:\t" + str(word))
         break
