@@ -263,3 +263,22 @@ This part of the assingment focuses on making a instution manual for your assemb
 ### Reflection
 
 I have not made anything like this before so i learned multiple things during this part of the assignment. I learned how to create a drawing of my assembly instantly by right clicking the assembly and hit create drawing. This lets you create a new tab for your drawing that you can choose to have a four view drawing or blank drawing for you to add your own stuff to. Another thing that i learned that was really useful was the BOM table or Bill Of Materials. We can set up the BOM table in the assembly tab and edit what we want it to display. After we do that we can add the BOM table to the drawing in a couple clicks. Then we can use the callout tool to label the different peices in the drawing of the assembly with numbers corresponding  to that on the BOM table.
+
+## RPi GPIO Pin Introduction
+
+### Assignment discription
+
+In this assignment we get fimiliar with diffferent naming conventions for the pins and different peices of code that control them. The Python script we wrote was to blink two LEDs so that when one was on the other was off and have script that describes what is happening in the serial monitor. The Python code needs to be written and run on the Raspberry Pi.
+
+### Evidence 
+
+https://user-images.githubusercontent.com/56924009/143916987-87879754-65ae-4328-b800-0fc1e6a88700.MOV
+
+### Wiring
+
+![unnamed](https://user-images.githubusercontent.com/56924009/143917198-831a493f-eb58-4a0d-be98-b88bae1ac794.jpg)
+
+### Reflection
+
+I was not aware of any of these naming conventions, so I learned a lot about what the different things mean. I learned the most about the BCM because it is the one I used for the coding. I learned multiple commands that manually effect the pin slots letting me change their function and if they are on or off if it is an output. When writing script on the raspberry pi you first can choose your prefered naming covention e.x. GPIO.setmode(GPIO.BCM) sets it to BCM. Then you can setup individual pins with GPIO.setup(21, GPIO.OUT)
+and only then can you really write your code.
