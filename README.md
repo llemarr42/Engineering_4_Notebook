@@ -282,3 +282,21 @@ https://user-images.githubusercontent.com/56924009/143916987-87879754-65ae-4328-
 
 I was not aware of any of these naming conventions, so I learned a lot about what the different things mean. I learned the most about the BCM because it is the one I used for the coding. I learned multiple commands that manually effect the pin slots letting me change their function and if they are on or off if it is an output. When writing script on the raspberry pi you first can choose your prefered naming covention e.x. GPIO.setmode(GPIO.BCM) sets it to BCM. Then you can setup individual pins with GPIO.setup(21, GPIO.OUT)
 and only then can you really write your code.
+
+## RPi Safe Shutdown Button
+
+### Assignment discription
+
+This assignment has you create a button on your breadboard that restarts your pi when pressed once or shuts down when held down. The majority of the steps and code are on an externel site that has all the code you need and tells you what to change in order to make it work without some devices like the Qwiic pHAT. This is all useful because it lets you safely shut down and reboot your pi while it is not connected to a computer.
+
+### Evidence 
+
+https://user-images.githubusercontent.com/56924009/144470154-7738501c-a1b8-4a06-8849-ea6d0067e12f.MOV
+
+### wiring
+
+![wiring_shut_down](https://user-images.githubusercontent.com/56924009/144470974-68bc17cd-fe62-4f7c-8016-8d3d47e95bf3.jpg)
+
+### Reflection
+
+In this assignment i learned more about different parts and how code can affect them. Something that i had not previously known was that there is an internal resistor like function in the pi that you can access and activate with code allowing you to no need a resistor in the wiring. Another thing that you can do is go into base files in your pi  and change or add to it's base code, which we used in this project to get our code to be constantly running in the background.
