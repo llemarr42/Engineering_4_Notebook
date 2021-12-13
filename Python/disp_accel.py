@@ -65,9 +65,9 @@ while True:
     accel_x, accel_y, accel_z = accel
     mag_x, mag_y, mag_z = mag
     # Write two lines of text.
-    draw.text((x, top),    'Accel X={0}', font=font, fill=255)
-    draw.text((x, top+20), 'Accel Y={1}', font=font, fill=255)
-    draw.text((x, top+40), 'Accel Z={2}', font=font, fill=255)
+    draw.text((x, top),    f'Accel X={accel_x}', font=font, fill=255)
+    draw.text((x, top+20), f'Accel Y={accel_y}', font=font, fill=255)
+    draw.text((x, top+40), f'Accel Z={accel_z}', font=font, fill=255)
 
     # Display image.
     disp.image(image)
