@@ -59,6 +59,8 @@ font = ImageFont.load_default()
 
 print('Printing accelerometer & magnetometer X, Y, Z axis values, press Ctrl-C to quit...')
 while True:
+    disp.clear()
+    disp.display()
     # Read the X, Y, Z axis acceleration values and print them.
     accel, mag = lsm303.read()
     # Grab the X, Y, Z components from the reading and print them out.
@@ -72,5 +74,6 @@ while True:
     # Display image.
     disp.image(image)
     disp.display()
+    
     # Wait half a second and repeat.
     time.sleep(0.5)
