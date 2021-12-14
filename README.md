@@ -300,3 +300,9 @@ https://user-images.githubusercontent.com/56924009/144470154-7738501c-a1b8-4a06-
 ### Reflection
 
 In this assignment i learned more about different parts and how code can affect them. Something that i had not previously known was that there is an internal resistor like function in the pi that you can access and activate with code allowing you to no need a resistor in the wiring. Another thing that you can do is go into base files in your pi  and change or add to it's base code, which we used in this project to get our code to be constantly running in the background.
+
+## GPIO Pins - I2C
+
+### Assignment discription
+
+In this assignment we
