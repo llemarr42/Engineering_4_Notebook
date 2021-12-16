@@ -3,6 +3,12 @@ import time
 # Import the LSM303 module.
 import Adafruit_LSM303
 
+import Adafruit_GPIO.SPI as SPI
+import Adafruit_SSD1306
+
+from PIL import Image
+from PIL import ImageDraw
+from PIL import ImageFont
 
 # Create a LSM303 instance.
 lsm303 = Adafruit_LSM303.LSM303()
@@ -25,15 +31,6 @@ while True:
    
 #-----------------------------------------------------------------------------------------------
 
-
-import time
-
-import Adafruit_GPIO.SPI as SPI
-import Adafruit_SSD1306
-
-from PIL import Image
-from PIL import ImageDraw
-from PIL import ImageFont
 
 
 # Raspberry Pi pin configuration:
