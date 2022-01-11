@@ -24,23 +24,6 @@ lsm303 = Adafruit_LSM303.LSM303()
 disp = Adafruit_SSD1306.SSD1306_128_64(rst=RST, i2c_address=0x3d)
 
 
-print('Printing accelerometer & magnetometer X, Y, Z axis values, press Ctrl-C to quit...')
-while True:
-    # Read the X, Y, Z axis acceleration values and print them.
-    accel, mag = lsm303.read()
-    # Grab the X, Y, Z components from the reading and print them out.
-    accel_x, accel_y, accel_z = accel
-    mag_x, mag_y, mag_z = mag
-    print('Accel X={0}, Accel Y={1}, Accel Z={2}, Mag X={3}, Mag Y={4}, Mag Z={5}'.format(
-          accel_x, accel_y, accel_z, mag_x, mag_y, mag_z))
-    # Wait half a second and repeat.
-    time.sleep(0.5)
-
-   
-#-----------------------------------------------------------------------------------------------
-
-
-
 # Initialize library.
 disp.begin()
 
@@ -68,9 +51,36 @@ top = padding
 bottom = height-padding
 # Move left to right keeping track of the current x position for drawing shapes.
 x = padding
-# Draw an ellipse.
-draw.ellipse((x, top , x+shape_width, bottom), outline=255, fill=0)
-x += shape_width+padding
+
+print('Printing accelerometer & magnetometer X, Y, Z axis values, press Ctrl-C to quit...')
+while True:
+    # Read the X, Y, Z axis acceleration values and print them.
+    accel, mag = lsm303.read()
+    # Grab the X, Y, Z components from the reading and print them out.
+    accel_x, accel_y, accel_z = accel
+    mag_x, mag_y, mag_z = mag
+    print('Accel X={0}, Accel Y={1}, Accel Z={2}, Mag X={3}, Mag Y={4}, Mag Z={5}'.format(
+          accel_x, accel_y, accel_z, mag_x, mag_y, mag_z))
+    
+    # Draw an ellipse.
+    draw.ellipse((x, top , x+shape_width, bottom), outline=255, fill=0)
+    x += shape_width+padding
+    
+    # Draw an ellipse.
+    draw.ellipse((x, top , x+shape_width, bottom), outline=255, fill=0)
+    x += shape_width+padding
+    
+    # Draw an ellipse.
+    draw.ellipse((x, top , x+shape_width, bottom), outline=255, fill=0)
+    x += shape_width+padding
+    
+    # Wait half a second and repeat.
+    time.sleep(0.5)
+
+   
+#-----------------------------------------------------------------------------------------------
+
+
 # Draw a rectangle.
 draw.rectangle((x, top, x+shape_width, bottom), outline=255, fill=0)
 x += shape_width+padding
