@@ -45,7 +45,7 @@ draw.rectangle((0,0,width,height), outline=0, fill=0)
 
 # Draw some shapes.
 # First define some constants to allow easy resizing of shapes.
-padding = 20
+padding = 30
 shape_width = 20
 top = (height/2)+10
 bottom = (height/2)+20
@@ -65,8 +65,7 @@ while True:
     draw.line((0, 32, 128, 32), fill=255)
 
     # Draw an ellipse.
-    #draw.ellipse((x, top+(accel_x/15) , x+shape_width, bottom+(accel_x/15)), outline=255, fill=0)
-    draw.ellipse((20, 20 , 40, 40), outline=255, fill=0)
+    draw.ellipse((x, top+(accel_x/15) , x+shape_width, bottom+(accel_x/15)), outline=255, fill=0)
     x += shape_width+padding
     
     # Draw an ellipse.
