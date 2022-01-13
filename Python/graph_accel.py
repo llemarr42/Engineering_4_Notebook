@@ -65,7 +65,8 @@ while True:
     draw.line((0, 32, 128, 32), fill=255)
 
     # Draw an ellipse.
-    draw.ellipse((x, top+(accel_x/15) , x+shape_width, bottom+(accel_x/15)), outline=255, fill=0)
+    #draw.ellipse((x, top+(accel_x/15) , x+shape_width, bottom+(accel_x/15)), outline=255, fill=0)
+    draw.ellipse((20, 20 , 40, 40), outline=255, fill=0)
     x += shape_width+padding
     
     # Draw an ellipse.
