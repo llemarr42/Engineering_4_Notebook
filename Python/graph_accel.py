@@ -67,13 +67,13 @@ while True:
     draw.line((0, 32, 128, 32), fill=255)
 
     # Draw an ellipse.
-    draw.ellipse((20, top+(accel_x/15) , 32+shape_width, bottom+(accel_x/15)), outline=255, fill=0)
+    draw.ellipse((20, top+(accel_x/15) , 20+shape_width, bottom+(accel_x/15)), outline=255, fill=0)
     
     # Draw an ellipse.
     draw.ellipse((64, top+(accel_y/15) , 64+shape_width, bottom+(accel_y/15)), outline=255, fill=0)
     
     # Draw an ellipse.
-    draw.ellipse((110, top+(accel_z/30) , 98+shape_width, bottom+(accel_z/30)), outline=255, fill=0)
+    draw.ellipse((110, top+(accel_z/30) , 110+shape_width, bottom+(accel_z/30)), outline=255, fill=0)
     
     
     # Display image.
