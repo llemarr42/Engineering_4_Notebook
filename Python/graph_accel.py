@@ -55,6 +55,7 @@ x = padding
 print('Printing accelerometer & magnetometer X, Y, Z axis values, press Ctrl-C to quit...')
 while True:
     disp.clear()
+    draw.rectangle((0,0,width,height), outline=0, fill=0)
     # Read the X, Y, Z axis acceleration values and print them.
     accel, mag = lsm303.read()
     # Grab the X, Y, Z components from the reading and print them out.
