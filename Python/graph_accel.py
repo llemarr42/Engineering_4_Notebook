@@ -48,7 +48,7 @@ draw.rectangle((0,0,width,height), outline=0, fill=0)
 padding = 20
 shape_width = 20
 top = (height/2)+10
-bottom = (height/2)-10
+bottom = (height/2)+20
 # Move left to right keeping track of the current x position for drawing shapes.
 x = padding
 
