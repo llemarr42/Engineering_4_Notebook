@@ -62,47 +62,24 @@ while True:
     print('Accel X={0}, Accel Y={1}, Accel Z={2}, Mag X={3}, Mag Y={4}, Mag Z={5}'.format(
           accel_x, accel_y, accel_z, mag_x, mag_y, mag_z))
     
+    draw.line((0, 32, 128, 32), fill=255)
+
     # Draw an ellipse.
-    draw.ellipse((x, top , x+shape_width, bottom), outline=255, fill=0)
+    draw.ellipse((x, top+(accel_x/15) , x+shape_width, bottom+(accel_x/15)), outline=255, fill=0)
     x += shape_width+padding
     
     # Draw an ellipse.
-    draw.ellipse((x, top , x+shape_width, bottom), outline=255, fill=0)
+    draw.ellipse((x, top+(accel_y/15) , x+shape_width, bottom+(accel_y/15)), outline=255, fill=0)
     x += shape_width+padding
     
     # Draw an ellipse.
-    draw.ellipse((x, top , x+shape_width, bottom), outline=255, fill=0)
+    draw.ellipse((x, top+(accel_z/15) , x+shape_width, bottom+(accel_z/15)), outline=255, fill=0)
     x += shape_width+padding
     
+    
+    # Display image.
+    disp.image(image)
+    disp.display()
+
     # Wait half a second and repeat.
     time.sleep(0.5)
-
-   
-#-----------------------------------------------------------------------------------------------
-
-
-# Draw a rectangle.
-draw.rectangle((x, top, x+shape_width, bottom), outline=255, fill=0)
-x += shape_width+padding
-# Draw a triangle.
-draw.polygon([(x, bottom), (x+shape_width/2, top), (x+shape_width, bottom)], outline=255, fill=0)
-x += shape_width+padding
-# Draw an X.
-draw.line((x, bottom, x+shape_width, top), fill=255)
-draw.line((x, top, x+shape_width, bottom), fill=255)
-x += shape_width+padding
-
-# Load default font.
-font = ImageFont.load_default()
-
-# Alternatively load a TTF font.  Make sure the .ttf font file is in the same directory as the python script!
-# Some other nice fonts to try: http://www.dafont.com/bitmap.php
-#font = ImageFont.truetype('Minecraftia.ttf', 8)
-
-# Write two lines of text.
-draw.text((x, top),    'Hello',  font=font, fill=255)
-draw.text((x, top+20), 'World!', font=font, fill=255)
-
-# Display image.
-disp.image(image)
-disp.display()
