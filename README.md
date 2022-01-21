@@ -309,6 +309,10 @@ In this assignment we set up two devices. One is an accelerometer and the other 
 
 ### Evidence
 
+
+https://user-images.githubusercontent.com/56924009/150582538-879f22a3-fd95-4f20-b630-d8f1828ec41d.MOV
+
+
 ### Wiring
 
 ### Reflection
