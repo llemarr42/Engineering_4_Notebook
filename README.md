@@ -315,4 +315,8 @@ https://user-images.githubusercontent.com/56924009/150582538-879f22a3-fd95-4f20-
 
 ### Wiring
 
+![gpio wiring](https://user-images.githubusercontent.com/56924009/150582867-29c8e5e6-c158-4d91-bf06-49b5d6671cda.jpg)
+
 ### Reflection
+
+This biggest problem that I struggled to understand is the 
