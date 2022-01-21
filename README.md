@@ -305,7 +305,7 @@ In this assignment i learned more about different parts and how code can affect 
 
 ### Assignment discription
 
-In this assignment we set up two devices. One is an accelerometer and the other is display screen. After we wire and test them, we are tasked with making code that displays the data we get from onto the display screen.
+In this assignment we set up two devices. One is an accelerometer and the other is display screen. After we wire and test them, we are tasked with making code that displays the data we get from onto the display screen. In order to set them up we have to install librarys that tell the devices how to work.
 
 ### Evidence
 
