@@ -305,7 +305,7 @@ In this assignment i learned more about different parts and how code can affect 
 
 ### Assignment discription
 
-In this assignment we set up two devices. One is an accelerometer and the other is display screen. After we wire and test them, we are tasked with making code that displays the data we get from onto the display screen. In order to set them up we have to install librarys that tell the devices how to work.
+In this assignment we set up two devices. One is an accelerometer and the other is display screen. In order to set them up we have to install librarys that tell the devices how to work.  After we wire and test them, we are tasked with making code that displays the data we get from onto the display screen. We do this by combining the two example scripts that are given to us.
 
 ### Evidence
 
@@ -319,4 +319,4 @@ https://user-images.githubusercontent.com/56924009/150582538-879f22a3-fd95-4f20-
 
 ### Reflection
 
-This biggest problem that I struggled to understand is the 
+This biggest problem that I struggled to get past was the combination of the two base scripts. The two peices of code are only distantly related and are difficult to understand. I specifically struggled with figuring out which bits of code are nessasary to keep and which bits i should get rid of. In the end I pasted both example codes into the file and slowly went through all the code deleting the unnessary and moving the rest into a seperate file for me to later organise and add to, to create the final code.
