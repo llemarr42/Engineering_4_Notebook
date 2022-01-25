@@ -336,3 +336,6 @@ https://user-images.githubusercontent.com/56924009/151022262-f21b97ae-3505-4e0d-
 
 ![gpio wiring](https://user-images.githubusercontent.com/56924009/150582867-29c8e5e6-c158-4d91-bf06-49b5d6671cda.jpg)
 
+### Reflection
+
+I continue to stuggle with combining the two different codes, but I learned a lot from the previous assignment so it was much faster this time around even if the actual code is more difficult. The other big thing i had trouble wtih is positioning on the display screen. My project relied on three circles that while in their base position are equidistant on a horizontal line, so I need to have a way to position them perfectly, then I have variables that make the circles move veritcally as the acceleration changes.  
