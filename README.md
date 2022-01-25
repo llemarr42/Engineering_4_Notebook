@@ -305,7 +305,7 @@ In this assignment i learned more about different parts and how code can affect 
 
 ### Assignment discription
 
-In this assignment we set up two devices. One is an accelerometer and the other is display screen. In order to set them up we have to install librarys that tell the devices how to work.  After we wire and test them, we are tasked with making code that displays the data we get from onto the display screen. We do this by combining the two example scripts that are given to us.
+In this assignment we set up two devices. One is an accelerometer and the other is display screen. In order to set them up we have to install librarys that tell the devices how to work.  After we wire and test them, we are tasked with making code that displays the data we get from the accelerometer in text form onto the display screen. We do this by combining the two example scripts that are given to us.
 
 ### Evidence
 
@@ -320,3 +320,19 @@ https://user-images.githubusercontent.com/56924009/150582538-879f22a3-fd95-4f20-
 ### Reflection
 
 This biggest problem that I struggled to get past was the combination of the two base scripts. The two peices of code are only distantly related and are difficult to understand. I specifically struggled with figuring out which bits of code are nessasary to keep and which bits i should get rid of. In the end I pasted both example codes into the file and slowly went through all the code deleting the unnessary and moving the rest into a seperate file for me to later organise and add to, to create the final code.
+
+## Headless Accelerometer
+
+### Assignment discription
+
+In this assignment we are tasked with expanding on the previous assignment by creating code that doesn't just display the data from the accelerometer, but does so in a visual form like a constantly updating graph or a circle that moves around the screen based on the x and y acceleration. After we created this visual representation we make it so that the code runs without need for manually starting it with a computer and instead the code starts running on boot up letting us theoretically ditch the computer entirely if we want to run this code.
+
+### Evidence 
+
+https://user-images.githubusercontent.com/56924009/151022262-f21b97ae-3505-4e0d-b0ca-7691906a6f2c.MOV
+
+
+### Wiring
+
+![gpio wiring](https://user-images.githubusercontent.com/56924009/150582867-29c8e5e6-c158-4d91-bf06-49b5d6671cda.jpg)
+
